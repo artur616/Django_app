@@ -31,11 +31,12 @@
 3. **Активировать созданное виртуальное окружение**:
     ```bash
     - `menuvenv\Scripts\activate.bat` - для Windows;
-    
+    ```bash
     - `source menuvenv/bin/activate` - для Linux и MacOS.
 4. **Создание миграций**:
     ```bash
    python manage.py makemigrations
+    ```bash
    python manage.py migrate
 
 5. **Запуск локального сервера Django:**:
