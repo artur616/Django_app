@@ -29,6 +29,7 @@
     python -m venv menuvenv
     ```
 3. **Активировать созданное виртуальное окружение**:
+    ```bash
     - `menuvenv\Scripts\activate.bat` - для Windows;
     
     - `source menuvenv/bin/activate` - для Linux и MacOS.
@@ -41,11 +42,11 @@
     ```bash
    python manage.py runserver
 
-## Приложение будет доступно по адресу http://localhost:8000/.
+## Приложение будет доступно по адресу http://localhost:8000/menu.
 
 ***Вход в админ-панель Django**:
-Логин: admin
-Пароль: admin
+- `Логин`: admin
+- `Пароль`: admin
 
 ## Stack:
 
