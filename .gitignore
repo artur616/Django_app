@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Pipenv
+Pipfile.lock
+
+# VS Code
+.vscode/
+
+# Others (add more if needed)
+*.pyo
+*.pyd
+*.pyc
+__pycache__
